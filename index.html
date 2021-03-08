@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="animate.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <!-- ファビコン -->
+    <link rel="icon" type="image/png" href="img/favicon-16x16.png">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+    </style>
+
+    <title>My-portfolio</title>
+</head>
+
+<body>
+    <!--メニューバー-->
+    <div class="button_container" id="toggle">
+        <span class="top"></span>
+        <span class="middle"></span>
+        <span class="bottom"></span>
+    </div>
+
+    <div class="overlay" id="overlay">
+        <nav class="overlay-menu">
+            <ul>
+                <li><a href="#" class="menu_aboutme">About Me</a></li>
+                <li><a href="#" class="menu_skills">Skills</a></li>
+                <li><a href="#" class="menu_works">Works</a></li>
+                <li><a href="#" class="menu_contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- トップページ -->
+    <div class="my-introduction">
+        <div class="main_imgBox">
+            <div class="main_img" style="background-image: url(img/beautifulsea.jpeg)"></div>
+            <div class="main_img" style="background-image: url(img/the-night-sky-4051288_640.jpg)"></div>
+            <div class="main_img" style="background-image: url(img/korea-3621711_640.jpg)"></div>
+            <div class="main_img" style="background-image: url(img/night.jpg)"></div>
+            <div class="main_img" style="background-image: url(img/seaandsunset.jpg)"></div>
+            <div class="main_img" style="background-image: url(img/nanngoku.jpeg)"></div>
+
+        </div>
+        <!-- <div class="wrapper"> -->
+        <div class="top-title">
+            <h1 class="my-name">Shoichi Eguchi's Portfolio</h1>
+        </div>
+        <p class="work-type">- Web Engineer -</p>
+        <!-- </div> -->
+    </div>
+
+    <div class="main-content">
+        <!-- ページトップに行くボタン -->
+        <div id="page-top">
+           <a href="#header" class="pt-button" title="ページトップヘ"> </a>
+        </div>
+        
+        <!-- 自分の紹介 ABOUT ME -->
+        <div id="home" class="big-bg">
+            <div class="aboutme">
+                <div class="wrapper animated">
+                    <div class="title">
+                        <h2 class="intro-title1"><i class="fas fa-user"></i> ABOUT ME</h2>
+                    </div>
+                    <div class="pic">
+                        <img class="mypic" src="img/aboutme.png" alt="my-picture">
+                    </div>
+                </div>
+            </div>
+            <div class="intro">
+                <div class="intro-content animated">
+                    <div class="wrapper">
+                        <div class="title ">
+                            <h2 class="intro-title1"> <i class="fas fa-globe "></i> INTRODUCTION</h2>
+                        </div>
+                        <div class="content">
+                            <p>初めまして。Webエンジニアの<strong>江口彰一</strong>と申します。</p>
+                            <p>現在フロントエンドを中心にWeb制作を行っております。</p>
+                            <p>「<span>質</span>」と「<span>スピード</span>」を重視することで、期待以上のものを提供します。</p>
+                            <p>また、クライアント様に寄り添った<span>丁寧かつ迅速なコミュニケーション</span>を常に心がけ、</p>
+                            <p>必ず最後まで責任を持って仕事に取り組ませていただきます。</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="edu animated">
+                    <div class="wrapper">
+                        <div class="title">
+                            <h2 class="intro-title1"><i class="fas fa-graduation-cap"></i> EDUCATIONS</h2>
+                        </div>
+                        <div class="content ">
+                            <p>1998年:埼玉県さいたま市出身</p>
+                            <p>2017年:都内の高校を首席で卒業</p>
+                            <p>2021年3月:慶應義塾大学理工学部物理情報工学科卒業予定</p>
+                            <p>※プログラミングスクールTechAcademyの「フロントエンドコース」を修了（2021年2月）</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- スキル紹介 -->
+            <div class="skills">
+                <div class="wrapper">
+                    <div class="title ">
+                        <h2 class="intro-title "><i class="fas fa-wrench"></i> SKILLS</h2>
+                    </div>
+                    <div class="skills-content animated">
+                        <div class="skill">
+                            <div class="skill-icon">
+                                <img src="img/HTML.jpg" alt="HTML's picture">
+                                <p>Level:★★★★★</p>
+                            </div>
+                        </div>
+
+                        <div class="skill">
+                            <div class="skill-icon">
+                                <img src="img/css.jpg" alt="CSS's picture">
+                                <p>Level:★★★★★</p>
+                            </div>
+                        </div>
+
+                        <div class="skill">
+                            <div class="skill-icon">
+                                <img src="img/Javascript.jpg" alt="JavaScript's picture">
+                                <p>Level:★★★★☆</p>
+                            </div>
+                        </div>
+
+                        <div class="skill">
+                            <div class="skill-icon">
+                                <img src="img/github.jpg" alt="JavaScript's picture">
+                                <p>Level:★★★★☆</p>
+                            </div>
+                        </div>
+
+                        <div class="skill">
+                            <div class="skill-icon">
+                                <img src="img/Wordpress.jpg" alt="JavaScript's picture">
+                                <p>Level:★★★★☆</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- 作品紹介 -->
+            <div class="works">
+                <div class="wrapper">
+                    <div class="title ">
+                        <h2 class="intro-title "> <i class="fas fa-bars"></i> WORKS</h2>
+                    </div>
+                    <div class="works-contents animated">
+                        <a href="index.html" class="portfolio_link">
+                            <div class="portfolio">
+                                <img src="img/my-portfolio.JPG" alt="portfolio">
+                                <div class="mask1"></div>
+                                <div class="mask2"></div>
+                                <div class="caption">
+                                    <p class="bigver">【Category】オリジナル作品<br><br>
+                                        【Title】Shoichi Eguchi's Portfolio<br><br>
+                                        【Skill】HTML / CSS / JQuery<br><br>
+                                        【Detail】私のことをよく知ってもらうためのサイトです。
+                                    </p>
+                                    <p class="smallver">
+                                        【Title】Shoichi Eguchi's Portfolio<br><br>
+                                        【Detail】私のことをよく知ってもらうためのサイトです。
+                                    </p>
+                                    <p class="supersmallver">
+                                        【Title】Shoichi Eguchi's Portfolio
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="https://eguchishoichi.github.io/bookcollection/" class="portfolio_link">
+                            <div class="portfolio">
+                                <img src="img/BookCollection.JPG" alt="portfolio" />
+                                <div class="mask1"></div>
+                                <div class="mask2"></div>
+                                <div class="caption">
+                                    <p class="bigver">【Category】オリジナル作品<br><br>
+                                        【Title】Book Collection<br><br>
+                                        【Skill】HTML / CSS / JQuery<br><br>
+                                        【Detail】自分のお気に入りの本を共有出来るサービスです。
+                                    </p>
+                                    <p class="smallver">
+                                        【Title】Book Collection<br><br>
+                                        【Detail】自分のお気に入りの本を共有出来るサービスです。
+                                    </p>
+                                    <p class="supersmallver">
+                                        【Title】Book Collection
+                                    </p>
+                                </div>
+                            </div>
+
+                        </a>
+                        <a href="https://eguchishoichi.github.io/SyuukatsuTomo/" class="portfolio_link">
+                            <div class="portfolio">
+                                <img src="img/SyuukatsuTomo.JPG" alt="portfolio" />
+                                <div class="mask1"></div>
+                                <div class="mask2"></div>
+                                <div class="caption">
+                                    <p class="bigver">【Category】オリジナル作品<br><br>
+                                        【Title】SyuukatsuTomo<br><br>
+                                        【Skill】HTML / CSS / JQuery<br><br>
+                                        【Detail】就活生と内定者が交流出来る掲示板サービスです。
+                                    </p>
+                                    <p class="smallver">
+                                        【Title】SyuukatsuTomo<br><br>
+                                        【Detail】就活生と内定者が交流出来る掲示板サービスです。
+                                    </p>
+                                    <p class="supersmallver">
+                                        【Title】SyuukatsuTomo
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- contactページ -->
+                <div class="contact">
+                    <div class="wrapper">
+                        <div class="title ">
+                            <h2 class="intro-title "><i class="far fa-envelope"></i> CONTACT</h2>
+                        </div>
+                        <div class="contact-text">ご依頼（ご相談）はメールよりお願いします。</div>
+                        <ul class="follow-me">
+                            <li><a href="mailto:shoichi.e.1158@gmail.com?body=ご依頼/ご相談内容" class="mail"></a></li>
+                          </ul>
+                        <div id="copyright">
+                            Copyright &copy; 2021 Shoichi Eguchi's Portfolio All Rights Reserved.
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+            <script src="jquery.waypoints.min.js"></script>
+            <script src="main.js"></script>
+            <!-- Optional JavaScript -->
+            <!-- jQuery first, then Popper.js, then Bootstrap JS, then Font Awesome -->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+            <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js"></script>
+</body>
+
+</html>
